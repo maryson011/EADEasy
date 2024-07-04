@@ -3,4 +3,5 @@ export default interface Aula {
     nome: string
     curso: string
     duracao: number
+    status: 'publicada' | 'rascunho' | 'desativada'
 }
